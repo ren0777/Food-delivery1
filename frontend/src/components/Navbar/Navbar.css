@@ -1,0 +1,108 @@
+.navbar {
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo span { color: var(--secondary); }
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-weight: 500;
+  color: var(--text);
+  transition: color 0.2s;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover { color: var(--primary); }
+
+.cart-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cart-badge {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.nav-auth { display: flex; align-items: center; gap: 12px; }
+
+.auth-btns { display: flex; gap: 10px; }
+
+.btn-login {
+  padding: 8px 20px;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btn-login:hover { background: var(--primary); color: #fff; }
+
+.btn-register {
+  padding: 8px 20px;
+  background: var(--primary);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.btn-register:hover { background: var(--primary-dark); }
+
+.user-menu { display: flex; align-items: center; gap: 12px; }
+
+.user-name { font-weight: 600; color: var(--secondary); font-size: 0.95rem; }
+
+.btn-logout {
+  padding: 8px 18px;
+  background: var(--secondary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.btn-logout:hover { background: #1a1a2e; }

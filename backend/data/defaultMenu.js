@@ -1,0 +1,68 @@
+const defaultMenu = [
+  {
+    name: 'Classic Burger',
+    description: 'Juicy grilled patty with lettuce, tomato and cheese.',
+    price: 149,
+    category: 'Burger',
+    image: 'default-burger.jpg',
+    rating: 4.5,
+  },
+  {
+    name: 'Margherita Pizza',
+    description: 'Fresh mozzarella with tomato sauce and basil.',
+    price: 299,
+    category: 'Pizza',
+    image: 'default-pizza.jpg',
+    rating: 4.7,
+  },
+  {
+    name: 'Paneer Roll',
+    description: 'Spicy paneer filling in a soft wrap.',
+    price: 119,
+    category: 'Rolls',
+    image: 'default-roll.jpg',
+    rating: 4.3,
+  },
+  {
+    name: 'Chocolate Cake Slice',
+    description: 'Moist chocolate cake with rich fudge layers.',
+    price: 89,
+    category: 'Cake',
+    image: 'default-cake.jpg',
+    rating: 4.8,
+  },
+  {
+    name: 'Veg Hakka Noodles',
+    description: 'Wok tossed noodles with crunchy vegetables.',
+    price: 139,
+    category: 'Noodles',
+    image: 'default-noodles.jpg',
+    rating: 4.3,
+  },
+  {
+    name: 'Pasta Arrabbiata',
+    description: 'Penne in a spicy tomato garlic sauce.',
+    price: 179,
+    category: 'Pasta',
+    image: 'default-pasta.jpg',
+    rating: 4.4,
+  },
+  {
+    name: 'Fresh Veg Sandwich',
+    description: 'Toasted sandwich loaded with fresh veggies.',
+    price: 129,
+    category: 'Sandwich',
+    image: 'default-sandwich.jpg',
+    rating: 4.2,
+  },
+  {
+    name: 'Seasonal Veg Bowl',
+    description: 'Balanced pure veg bowl with rice and curry.',
+    price: 199,
+    category: 'Pure Veg',
+    image: 'default-veg.jpg',
+    rating: 4.6,
+  },
+];
+
+module.exports = defaultMenu;

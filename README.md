@@ -141,3 +141,4 @@ Backend API runs on: **http://localhost:5000**
 3. **Cart** — View items, enter address, place order
 4. **Login** — JWT-based login
 5. **Register** — Create new account
+
